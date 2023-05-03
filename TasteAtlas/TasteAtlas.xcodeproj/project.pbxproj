@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16595C902A019F7E0073B1AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16595C8F2A019F7E0073B1AB /* AppDelegate.swift */; };
+		16595C922A019F7E0073B1AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16595C912A019F7E0073B1AB /* SceneDelegate.swift */; };
+		16595C942A019F7E0073B1AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16595C932A019F7E0073B1AB /* ViewController.swift */; };
+		16595C972A019F7E0073B1AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16595C952A019F7E0073B1AB /* Main.storyboard */; };
+		16595C992A019F7F0073B1AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16595C982A019F7F0073B1AB /* Assets.xcassets */; };
+		16595C9C2A019F7F0073B1AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16595C9A2A019F7F0073B1AB /* LaunchScreen.storyboard */; };
+		16595CA72A019F7F0073B1AB /* TasteAtlasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16595CA62A019F7F0073B1AB /* TasteAtlasTests.swift */; };
+		16595CB12A019F7F0073B1AB /* TasteAtlasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16595CB02A019F7F0073B1AB /* TasteAtlasUITests.swift */; };
+		16595CB32A019F7F0073B1AB /* TasteAtlasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16595CB22A019F7F0073B1AB /* TasteAtlasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16595CA32A019F7F0073B1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16595C842A019F7E0073B1AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16595C8B2A019F7E0073B1AB;
+			remoteInfo = TasteAtlas;
+		};
+		16595CAD2A019F7F0073B1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16595C842A019F7E0073B1AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16595C8B2A019F7E0073B1AB;
+			remoteInfo = TasteAtlas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16595C8C2A019F7E0073B1AB /* TasteAtlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasteAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16595C8F2A019F7E0073B1AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16595C912A019F7E0073B1AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		16595C932A019F7E0073B1AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16595C962A019F7E0073B1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16595C982A019F7F0073B1AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16595C9B2A019F7F0073B1AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16595C9D2A019F7F0073B1AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16595CA22A019F7F0073B1AB /* TasteAtlasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteAtlasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16595CA62A019F7F0073B1AB /* TasteAtlasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteAtlasTests.swift; sourceTree = "<group>"; };
+		16595CAC2A019F7F0073B1AB /* TasteAtlasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasteAtlasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16595CB02A019F7F0073B1AB /* TasteAtlasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteAtlasUITests.swift; sourceTree = "<group>"; };
+		16595CB22A019F7F0073B1AB /* TasteAtlasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasteAtlasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16595C892A019F7E0073B1AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16595C9F2A019F7F0073B1AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16595CA92A019F7F0073B1AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16595C832A019F7E0073B1AB = {
+			isa = PBXGroup;
+			children = (
+				16595C8E2A019F7E0073B1AB /* TasteAtlas */,
+				16595CA52A019F7F0073B1AB /* TasteAtlasTests */,
+				16595CAF2A019F7F0073B1AB /* TasteAtlasUITests */,
+				16595C8D2A019F7E0073B1AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16595C8D2A019F7E0073B1AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16595C8C2A019F7E0073B1AB /* TasteAtlas.app */,
+				16595CA22A019F7F0073B1AB /* TasteAtlasTests.xctest */,
+				16595CAC2A019F7F0073B1AB /* TasteAtlasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16595C8E2A019F7E0073B1AB /* TasteAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				16595C8F2A019F7E0073B1AB /* AppDelegate.swift */,
+				16595C912A019F7E0073B1AB /* SceneDelegate.swift */,
+				16595CBF2A01A2180073B1AB /* Main Screen */,
+				16595C982A019F7F0073B1AB /* Assets.xcassets */,
+				16595C9A2A019F7F0073B1AB /* LaunchScreen.storyboard */,
+				16595C9D2A019F7F0073B1AB /* Info.plist */,
+			);
+			path = TasteAtlas;
+			sourceTree = "<group>";
+		};
+		16595CA52A019F7F0073B1AB /* TasteAtlasTests */ = {
+			isa = PBXGroup;
+			children = (
+				16595CA62A019F7F0073B1AB /* TasteAtlasTests.swift */,
+			);
+			path = TasteAtlasTests;
+			sourceTree = "<group>";
+		};
+		16595CAF2A019F7F0073B1AB /* TasteAtlasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16595CB02A019F7F0073B1AB /* TasteAtlasUITests.swift */,
+				16595CB22A019F7F0073B1AB /* TasteAtlasUITestsLaunchTests.swift */,
+			);
+			path = TasteAtlasUITests;
+			sourceTree = "<group>";
+		};
+		16595CBF2A01A2180073B1AB /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				16595C932A019F7E0073B1AB /* ViewController.swift */,
+				16595C952A019F7E0073B1AB /* Main.storyboard */,
+			);
+			path = "Main Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16595C8B2A019F7E0073B1AB /* TasteAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16595CB62A019F7F0073B1AB /* Build configuration list for PBXNativeTarget "TasteAtlas" */;
+			buildPhases = (
+				16595C882A019F7E0073B1AB /* Sources */,
+				16595C892A019F7E0073B1AB /* Frameworks */,
+				16595C8A2A019F7E0073B1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasteAtlas;
+			productName = TasteAtlas;
+			productReference = 16595C8C2A019F7E0073B1AB /* TasteAtlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16595CA12A019F7F0073B1AB /* TasteAtlasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16595CB92A019F7F0073B1AB /* Build configuration list for PBXNativeTarget "TasteAtlasTests" */;
+			buildPhases = (
+				16595C9E2A019F7F0073B1AB /* Sources */,
+				16595C9F2A019F7F0073B1AB /* Frameworks */,
+				16595CA02A019F7F0073B1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16595CA42A019F7F0073B1AB /* PBXTargetDependency */,
+			);
+			name = TasteAtlasTests;
+			productName = TasteAtlasTests;
+			productReference = 16595CA22A019F7F0073B1AB /* TasteAtlasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16595CAB2A019F7F0073B1AB /* TasteAtlasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16595CBC2A019F7F0073B1AB /* Build configuration list for PBXNativeTarget "TasteAtlasUITests" */;
+			buildPhases = (
+				16595CA82A019F7F0073B1AB /* Sources */,
+				16595CA92A019F7F0073B1AB /* Frameworks */,
+				16595CAA2A019F7F0073B1AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16595CAE2A019F7F0073B1AB /* PBXTargetDependency */,
+			);
+			name = TasteAtlasUITests;
+			productName = TasteAtlasUITests;
+			productReference = 16595CAC2A019F7F0073B1AB /* TasteAtlasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16595C842A019F7E0073B1AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					16595C8B2A019F7E0073B1AB = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					16595CA12A019F7F0073B1AB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 16595C8B2A019F7E0073B1AB;
+					};
+					16595CAB2A019F7F0073B1AB = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 16595C8B2A019F7E0073B1AB;
+					};
+				};
+			};
+			buildConfigurationList = 16595C872A019F7E0073B1AB /* Build configuration list for PBXProject "TasteAtlas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16595C832A019F7E0073B1AB;
+			productRefGroup = 16595C8D2A019F7E0073B1AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16595C8B2A019F7E0073B1AB /* TasteAtlas */,
+				16595CA12A019F7F0073B1AB /* TasteAtlasTests */,
+				16595CAB2A019F7F0073B1AB /* TasteAtlasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16595C8A2A019F7E0073B1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16595C9C2A019F7F0073B1AB /* LaunchScreen.storyboard in Resources */,
+				16595C992A019F7F0073B1AB /* Assets.xcassets in Resources */,
+				16595C972A019F7E0073B1AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16595CA02A019F7F0073B1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16595CAA2A019F7F0073B1AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16595C882A019F7E0073B1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16595C942A019F7E0073B1AB /* ViewController.swift in Sources */,
+				16595C902A019F7E0073B1AB /* AppDelegate.swift in Sources */,
+				16595C922A019F7E0073B1AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16595C9E2A019F7F0073B1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16595CA72A019F7F0073B1AB /* TasteAtlasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16595CA82A019F7F0073B1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16595CB32A019F7F0073B1AB /* TasteAtlasUITestsLaunchTests.swift in Sources */,
+				16595CB12A019F7F0073B1AB /* TasteAtlasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16595CA42A019F7F0073B1AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16595C8B2A019F7E0073B1AB /* TasteAtlas */;
+			targetProxy = 16595CA32A019F7F0073B1AB /* PBXContainerItemProxy */;
+		};
+		16595CAE2A019F7F0073B1AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16595C8B2A019F7E0073B1AB /* TasteAtlas */;
+			targetProxy = 16595CAD2A019F7F0073B1AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16595C952A019F7E0073B1AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16595C962A019F7E0073B1AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16595C9A2A019F7F0073B1AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16595C9B2A019F7F0073B1AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16595CB42A019F7F0073B1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16595CB52A019F7F0073B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16595CB72A019F7F0073B1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WX6W95X32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasteAtlas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = altinisik.mustafa.TasteAtlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16595CB82A019F7F0073B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WX6W95X32;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasteAtlas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = altinisik.mustafa.TasteAtlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16595CBA2A019F7F0073B1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WX6W95X32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = altinisik.mustafa.TasteAtlasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteAtlas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasteAtlas";
+			};
+			name = Debug;
+		};
+		16595CBB2A019F7F0073B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WX6W95X32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = altinisik.mustafa.TasteAtlasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasteAtlas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasteAtlas";
+			};
+			name = Release;
+		};
+		16595CBD2A019F7F0073B1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WX6W95X32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = altinisik.mustafa.TasteAtlasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasteAtlas;
+			};
+			name = Debug;
+		};
+		16595CBE2A019F7F0073B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7WX6W95X32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = altinisik.mustafa.TasteAtlasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasteAtlas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16595C872A019F7E0073B1AB /* Build configuration list for PBXProject "TasteAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16595CB42A019F7F0073B1AB /* Debug */,
+				16595CB52A019F7F0073B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16595CB62A019F7F0073B1AB /* Build configuration list for PBXNativeTarget "TasteAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16595CB72A019F7F0073B1AB /* Debug */,
+				16595CB82A019F7F0073B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16595CB92A019F7F0073B1AB /* Build configuration list for PBXNativeTarget "TasteAtlasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16595CBA2A019F7F0073B1AB /* Debug */,
+				16595CBB2A019F7F0073B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16595CBC2A019F7F0073B1AB /* Build configuration list for PBXNativeTarget "TasteAtlasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16595CBD2A019F7F0073B1AB /* Debug */,
+				16595CBE2A019F7F0073B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16595C842A019F7E0073B1AB /* Project object */;
+}
